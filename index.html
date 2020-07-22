@@ -51,8 +51,8 @@
     position: absolute;
     text-align: center;
     z-index: 1;
-    top: 45%;
-    left: 31%;
+    top: 50%;
+    left: 30%;
     border: 1px solid #000000;
     box-shadow: 0px 1px 7px 3px #492121;
     padding-top: 20px;
@@ -83,9 +83,13 @@
     background-image: none;
     overflow: hidden;
 }
+  .overlay {
+    background-image: url(forest.png);
+}
 </style>
 </head>
 <body>
+	<div class="overlay">
 <div class="game">
 	
 	<div class="score">
@@ -100,8 +104,8 @@
 	</div>
 	<div class="gameArea"></div>
 
+  </div>
 </div>
-
 <script>
  const score = document.querySelector('.score');
  const startScreen = document.querySelector('.startScreen');
